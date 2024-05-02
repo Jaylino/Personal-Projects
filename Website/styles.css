@@ -1,0 +1,92 @@
+html{
+
+font-size:10px;
+
+}
+
+.body {
+
+    display:block;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ line-height:2;
+ text-align:center;
+ color:slateblue;
+ margin:10%;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    background-color:azure;
+    border-radius:20px;
+    position:fixed;
+    top:0;
+    width:100%;
+    overflow:hidden;
+    height:20px;
+}
+
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:white;
+    width:60px;
+    padding:10px 10px;
+    text-align:center;
+}
+li a:hover{
+    background-color:cornflowerblue;
+    color:white;
+}
+
+.active{
+    background-color: beige;
+    color:black;
+}
+
+navbar{
+    padding-top:100px;
+    margin:auto;
+    position:fixed;
+    background-color:powderblue;
+    top:100px;
+    z-index:1;
+}
+
+.h1{
+    font-weight:normal;
+    font-size:2rem;
+}
+.h2{
+    font-weight:normal;
+    font-size:1rem;
+    color:green;
+
+}
+
+projects{
+    display:flex;
+    flex-direction: row;
+
+}
+
+tr{
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+}
+
+th{
+    font-size:2rem;
+    display:flex;
+padding:1px;
+text-align:left;
+
+}
+
+.contact-info{
+color:green;
+}
+
